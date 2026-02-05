@@ -24,10 +24,11 @@ class PE04JCB {
 		else if (n2 > n1 && n2 > n3) 
 		    highest = n2;
 		else if (n3 > n1 && n3 > n2) 
-		   highest = n3;
+		    highest = n3;
 
 		System.out.println(highest + " is the highest among the 3 numbers.");
     }
 
 }
+
 
