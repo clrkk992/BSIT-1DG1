@@ -10,7 +10,7 @@ class PE04JCB {
     public static void main(String[] clrk) {
         Scanner inpt = new Scanner(System.in);
 	
-		int n1, n2, n3;
+		int n1, n2, n3, highest;
 	
 		System.out.print("Enter 1st number: ");
 		n1 = inpt.nextInt();
@@ -20,11 +20,14 @@ class PE04JCB {
 		n3 = inpt.nextInt();
 	
 		if (n1 > n2 && n1 > n3) 
-		    System.out.println(n1 + " is the highest among the 3 numbers.");
+		    highest = n1;
 		else if (n2 > n1 && n2 > n3) 
-		    System.out.println(n2 + " is the highest among the 3 numbers.");
+		    highest = n2;
 		else if (n3 > n1 && n3 > n2) 
-		    System.out.println(n3 + " is the highest among the 3 numbers.");
+		   highest = n3;
+
+		System.out.println(highest + " is the highest among the 3 numbers.");
     }
 
 }
+
