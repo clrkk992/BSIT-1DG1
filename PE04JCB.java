@@ -1,7 +1,7 @@
 /*
 Name: Baguio, Janfred Clark J.
 Section: BSIT 1DG1
-Description: A program that determines which is the highest number among the 3 inputted numbers..
+Description: A program that determines which is the highest number among the 3 numbers entered.
 */
 
 import java.util.*;
@@ -30,5 +30,6 @@ class PE04JCB {
     }
 
 }
+
 
 
