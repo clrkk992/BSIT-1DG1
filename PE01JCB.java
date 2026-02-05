@@ -8,16 +8,17 @@ import java.util.*;
 
 class PE01JCB {
     public static void main(String[] clrk) {
-        Scanner inpt = new Scanner(System.in);
+    	Scanner inpt = new Scanner(System.in);
 	
-	int num;
+		int num;
 
-	System.out.print("Enter a number: ");
-	num = inpt.nextInt();
+		System.out.print("Enter a number: ");
+		num = inpt.nextInt();
 
-	if (num % 2 == 0) 
-	    System.out.println("Even");
-	else if (num % 2 != 0)
-	    System.out.println("Odd");
+		if (num % 2 == 0) 
+	    	System.out.println("Even");
+		else if (num % 2 != 0)
+	    	System.out.println("Odd");
     }
+
 }
